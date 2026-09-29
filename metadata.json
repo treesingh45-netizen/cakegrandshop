@@ -1,0 +1,8 @@
+{
+  "name": "Cake Grand Shop | Cakes & Bakery in H-13 Islamabad",
+  "description": "Cake Grand Shop in H-13, Islamabad offers cakes, desserts, cupcakes and celebration treats. Explore our menu and order your favorite cake online.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,3 +1,10 @@
+import heroCelebrationImg from '../assets/images/hero_celebration_cake_1790662806463.jpg';
+import chocolateFudgeImg from '../assets/images/chocolate_fudge_cake_1790662826055.jpg';
+import redVelvetImg from '../assets/images/red_velvet_cake_1790662843047.jpg';
+import lotusBiscoffImg from '../assets/images/lotus_biscoff_cake_1790662858967.jpg';
+import cupcakesBoxImg from '../assets/images/gourmet_cupcakes_box_1790662872590.jpg';
+import bespokeWeddingImg from '../assets/images/bespoke_wedding_cake_1790662889377.jpg';
+
 export interface ProductSize {
   label: string;
   price: number;
@@ -68,12 +75,12 @@ export interface CMSStoreState {
 }
 
 export const IMAGES = {
-  heroCelebration: '/src/assets/images/hero_celebration_cake_1790662806463.jpg',
-  chocolateFudge: '/src/assets/images/chocolate_fudge_cake_1790662826055.jpg',
-  redVelvet: '/src/assets/images/red_velvet_cake_1790662843047.jpg',
-  lotusBiscoff: '/src/assets/images/lotus_biscoff_cake_1790662858967.jpg',
-  cupcakesBox: '/src/assets/images/gourmet_cupcakes_box_1790662872590.jpg',
-  bespokeWedding: '/src/assets/images/bespoke_wedding_cake_1790662889377.jpg',
+  heroCelebration: heroCelebrationImg,
+  chocolateFudge: chocolateFudgeImg,
+  redVelvet: redVelvetImg,
+  lotusBiscoff: lotusBiscoffImg,
+  cupcakesBox: cupcakesBoxImg,
+  bespokeWedding: bespokeWeddingImg,
 };
 
 export const BUSINESS_INFO = {
